@@ -70,3 +70,6 @@ img,video{
 body{
  background: var(--bodyColor);
 }
+/*body {
+	background: fixed url("./backgroundApp2.png");
+}*/
