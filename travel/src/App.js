@@ -15,7 +15,13 @@ import PlusDeDetailsPlace from "./Components/Places/DetailPlace/PlusDeDetailPlac
 import PlusDeDetailsArticle from "./Components/Article/PlusDeDetailsArticle/PlusDeDetailsArticle";
 import LoadMoreRestaurant from "./Components/Restaurants/LoadMoreRestaurant";
 import Profile from "./Components/Profile";
-
+import SignInPage from './components/SignInPageComponent/SignInPageComponent.js';
+import SignUpPage from './components/SignUpPageComponent/SignUpPageComponent.js';
+import PostComponent from './components/postComponent/postComponent.js';
+import DetailedPostComponent from './components/detailedPostComponent/detailedPostComponent.js';
+import FreindPostsPage from './components/freindPostsPageComponent/freindPostsPage.js';
+import CommentsPage from './components/commentsPageComponent/commentsPageComponent.js';
+import ResetPassword from './components/resetPasswordComoponent/resetPasswordComponent.js'; 
 const App = () => {
  return(
   
