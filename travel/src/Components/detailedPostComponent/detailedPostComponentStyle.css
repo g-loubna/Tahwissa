@@ -1,0 +1,90 @@
+.detailedPostComponent {
+	position: absolute;
+	top: 75px;
+	left: 450px;
+	width: 635.04px;
+	height: 642px;
+	border: 1px solid #FFFFFF;
+	border-radius: 14.5px;
+	background: url("./postB.png");
+}
+.span {
+	opacity: 0;
+}
+.publisherName {
+	font-family: "Arial";
+	font-size: 16px;
+	color: #ffffff;
+	
+}
+.publishDate {
+	font-family: "Arial";
+	font-size: 14px;
+	color: #ffffff;
+}
+.views {
+	font-family: "Arial";
+	font-size: 14px;
+	color: #ffffff;
+}
+.likes {
+	font-family: "Arial";
+	font-size: 14px;
+	color: #ffffff;
+}
+.share {
+	background: url("./share.png");
+	width: 14px;
+	height: 13px;
+	border: none;
+}
+.like {
+	background: url("./like.png");
+	width: 14px;
+	height: 13px;
+	border: none;
+}
+.delete {
+	background: url("./delete.png");
+	width: 12px;
+	height: 13px;
+	border: none;
+}
+.postTitle {
+	font-family: "Arial";
+	font-size: 22px;
+	color: #ffffff;
+}
+.postImage {
+	margin-left: 95px;
+	width: 455px;
+	height: 167px;
+}
+.postText {
+	
+	margin-left: 95px;
+	width: 465px;
+	height: 65px;
+	font-family: "Arial";
+	font-size: 16px;
+	color: #ffffff;
+
+}
+.viewMore {
+	
+	background: url("./viewButton.png");
+	width: 64.56px;
+	height: 12px;
+	border: none;
+}
+.commentsButton {
+	background: url("./commentsButton.png");
+	width: 78px;
+	height: 12px;
+	border: none;
+	font-size: 11px;
+	color: transparent;
+}
+.pSep {
+	height: 0px;
+}

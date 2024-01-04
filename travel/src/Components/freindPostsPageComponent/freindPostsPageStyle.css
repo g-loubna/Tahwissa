@@ -1,0 +1,13 @@
+.freindPostsPage {
+	position: absolute;
+	top: 70px;
+	left: 420px;
+	width: 655px;
+	height: 660px;
+	color: #ffffff;
+}
+.freindPostsText {
+	font-family: "Arial";
+	font-size: 28px;
+	color: #ffffff;
+}

@@ -1,0 +1,30 @@
+.hidetext {
+	opacity: 0;
+}
+.commentInput {
+	border-radius: 20px;
+	height: 46px;
+	width: 531px;
+	border: none;
+}
+.sendComment {
+	border-radius: 20px;
+	height: 20px;
+	width: 20.5px;
+	border: none;
+	margin: ;
+	background: url("send.png");
+}
+.CommentsPage {
+	position: absolute;
+	top: 70px;
+	left: 420px;
+	width: 655px;
+	height: 660px;
+	color: #ffffff;
+}
+.commentsText {
+	font-family: "Arial";
+	font-size: 28px;
+	color: #ffffff;
+}
