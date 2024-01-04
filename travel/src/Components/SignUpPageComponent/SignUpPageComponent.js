@@ -232,7 +232,7 @@ function SingUpPage() {
         <span className="hiddingElement4">sssssss</span>
         <span className="dontHavingAnAccountText">Vous avez déjà un compte ?</span>
         <span className="hiddingElement4">ssss</span>
-        <Link className="createNewOneText" to="/">Sign In</Link>
+        <Link className="createNewOneText" to="/SignInPage">Sign In</Link>
       </div>
     </> 
   );
