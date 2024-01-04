@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import joo from "../../assets/joo.jpg";
 import "./AfterLandingPage.css";
 
@@ -23,7 +24,7 @@ function MonComposant() {
             </pre>
           </div>
         </div>
-        <button><p>Join us </p></button>
+        <Link to="/SignInPage">SignInPage</Link>
       </div>
     </div>
   );
