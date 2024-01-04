@@ -17,13 +17,17 @@ aws.config.update({
 
 
 // Get all articles
-const getPosts= async (req, res) => {
-    try {
-        const allPosts = await Posts.find();
-        res.json(allPosts);
-    } catch (error) {
-        res.status(500).json({ error: 'Internal Server Error' });
-    }
+const getPosts = async (req, res) => {
+  try {
+    const allPosts = await Posts.find()
+      .populate('user_id', 'userName') // Populate the user_id field with the userName
+      .exec();
+
+    res.json(allPosts);
+  } catch (error) {
+    console.error('Error fetching posts:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
 };
 
 
